@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Milky Way Cafe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/milkyway-logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/milkyway-logo.png" alt="Milky Way Cafe Logo">
+      <span class="logo-text"><span class="milky-text">Milky</span> Way <span class="cafe-text">Cafe</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="our-story.html">Our Story</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="events-page-header">
+    <h1>Upcoming Events</h1>
+    <p>Join us for trivia nights, live music, themed evenings, and more. Check the calendar below to see what's coming up!</p>
+  </section>
+
+  <!-- Calendar Section -->
+  <section class="calendar-section">
+    <div class="calendar-container">
+      <div class="calendar-nav">
+        <button class="btn btn-gold calendar-prev" aria-label="Previous month">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <h2 class="calendar-month-year"></h2>
+        <button class="btn btn-gold calendar-next" aria-label="Next month">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="calendar-weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="calendar-grid" id="calendarGrid"></div>
+    </div>
+  </section>
+
+  <!-- Event Details -->
+  <section class="event-details-section" id="eventDetails">
+    <h2 class="event-details-heading">Events This Month</h2>
+    <div class="event-details-grid" id="eventDetailsGrid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h3>Address</h3>
+        <p>1201 University Blvd, Suite 201<br>Orlando, FL 32817</p>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>407-288-288<br>milkywaycafe@gmail.com</p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon - Fri: 8am - 1am<br>Sat - Sun: 10am - 2am</p>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/stardustie/?hl=en" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/stardustie/?hl=en" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Milky Way Cafe. <br>Fictious café produced for DIG4503 at UCF by <a href="https://github.com/meera-develops" target="_blank">Meera Bhola</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
